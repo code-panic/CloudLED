@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/WeatherLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:id="@+id/AnimationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/MapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/icon_marker"/>
+
+            <TextView
+                android:id="@+id/CityNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seoul"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/noto_sans_bold"
+                android:includeFontPadding="false"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Monday 18 December"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_sans_regular"
+            android:includeFontPadding="false"/>
+
+            <ImageView
+                android:id="@+id/CloudImageView"
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/icon_cloud_cloudy"/>
+
+            <TextView
+                android:id="@+id/CloudTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cloudy Day"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/noto_sans_bold"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:id="@+id/CloudSubTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="산책하기 좋은 날씨네요!"
+                android:textSize="12sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/noto_sans_medium"
+                android:includeFontPadding="false"/>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:id="@+id/TempTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="30°C"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_medium"
+                    android:includeFontPadding="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:id="@+id/HumidityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="54%"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_medium"
+                    android:includeFontPadding="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:id="@+id/PressureTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="29 inHg"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_medium"
+                    android:includeFontPadding="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wind"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:id="@+id/WindTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="30°C"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/noto_sans_medium"
+                    android:includeFontPadding="false"/>
+            </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_bg_cloud" />
+
+    <ImageView
+        android:id="@+id/Dessert3ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_bg_dessert3" />
+
+    <ImageView
+        android:id="@+id/Dessert2ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_bg_dessert2" />
+
+    <ImageView
+        android:id="@+id/Dessert1ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_bg_dessert1" />
+</RelativeLayout>

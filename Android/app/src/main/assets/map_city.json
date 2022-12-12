@@ -1,0 +1,237 @@
+[
+  {
+    "id": 5128581,
+    "name": "New York",
+    "state": "NY",
+    "country": "US",
+    "coord": {
+      "lon": -74.005966,
+      "lat": 40.714272
+    }
+  }, {
+    "id": 6455259,
+    "name": "Paris",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": 2.35236,
+      "lat": 48.856461
+    }
+  }, {
+    "id": 1835847,
+    "name": "Seoul",
+    "state": "",
+    "country": "KR",
+    "coord": {
+      "lon": 127.0,
+      "lat": 37.583328
+    }
+  }, {
+    "id": 98182,
+    "name": "Baghdad",
+    "state": "",
+    "country": "IQ",
+    "coord": {
+      "lon": 44.400879,
+      "lat": 33.34058
+    }
+  }, {
+    "id": 1850147,
+    "name": "Tokyo",
+    "state": "",
+    "country": "JP",
+    "coord": {
+      "lon": 139.691711,
+      "lat": 35.689499
+    }
+  }, {
+    "id": 2147714,
+    "name": "Sydney",
+    "state": "",
+    "country": "AU",
+    "coord": {
+      "lon": 151.207321,
+      "lat": -33.867851
+    }
+  }, {
+    "id": 3451189,
+    "name": "Rio de Janeiro",
+    "state": "",
+    "country": "BR",
+    "coord": {
+      "lon": -42.5,
+      "lat": -22.0
+    }
+  }, {
+    "id": 3435907,
+    "name": "Buenos Aires",
+    "state": "",
+    "country": "AR",
+    "coord": {
+      "lon": -60.0,
+      "lat": -36.0
+    }
+  }, {
+    "id": 6094817,
+    "name": "Ottawa",
+    "state": "",
+    "country": "CA",
+    "coord": {
+      "lon": -75.69812,
+      "lat": 45.411171
+    }
+  }, {
+    "id": 6167865,
+    "name": "Toronto",
+    "state": "",
+    "country": "CA",
+    "coord": {
+      "lon": -79.416298,
+      "lat": 43.700111
+    }
+  }, {
+    "id": 3530597,
+    "name": "Mexico City",
+    "state": "",
+    "country": "MX",
+    "coord": {
+      "lon": -99.127663,
+      "lat": 19.428471
+    }
+  }, {
+    "id": 5391959,
+    "name": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "coord": {
+      "lon": -122.419418,
+      "lat": 37.774929
+    }
+  }, {
+    "id": 5855797,
+    "name": "Hawaii",
+    "state": "HI",
+    "country": "US",
+    "coord": {
+      "lon": -156.500275,
+      "lat": 20.75028
+    }
+  }, {
+    "id": 1261481,
+    "name": "New Delhi",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 77.23114,
+      "lat": 28.61282
+    }
+  }, {
+    "id": 2179537,
+    "name": "Wellington",
+    "state": "",
+    "country": "NZ",
+    "coord": {
+      "lon": 174.775574,
+      "lat": -41.28664
+    }
+  }, {
+    "id": 1642911,
+    "name": "Jakarta",
+    "state": "",
+    "country": "ID",
+    "coord": {
+      "lon": 106.845131,
+      "lat": -6.21462
+    }
+  }, {
+    "id": 1816670,
+    "name": "Beijing",
+    "state": "",
+    "country": "CN",
+    "coord": {
+      "lon": 116.397232,
+      "lat": 39.907501
+    }
+  }, {
+    "id": 1581130,
+    "name": "Ha Noi",
+    "state": "",
+    "country": "VN",
+    "coord": {
+      "lon": 105.841171,
+      "lat": 21.0245
+    }
+  }, {
+    "id": 2028461,
+    "name": "Ulaanbaatar",
+    "state": "",
+    "country": "MN",
+    "coord": {
+      "lon": 106.916672,
+      "lat": 47.916672
+    }
+  }, {
+    "id": 524894,
+    "name": "Moscow",
+    "state": "",
+    "country": "RU",
+    "coord": {
+      "lon": 37.606667,
+      "lat": 55.761665
+    }
+  }, {
+    "id": 2643743,
+    "name": "London",
+    "state": "",
+    "country": "GB",
+    "coord": {
+      "lon": -0.12574,
+      "lat": 51.50853
+    }
+  }, {
+    "id": 658225,
+    "name": "Helsinki",
+    "state": "",
+    "country": "FI",
+    "coord": {
+      "lon": 24.93545,
+      "lat": 60.16952
+    }
+  }, {
+    "id": 360630,
+    "name": "Cairo",
+    "state": "",
+    "country": "EG",
+    "coord": {
+      "lon": 31.24967,
+      "lat": 30.06263
+    }
+  }, {
+    "id": 344979,
+    "name": "Addis Ababa",
+    "state": "",
+    "country": "ET",
+    "coord": {
+      "lon": 38.746891,
+      "lat": 9.02497
+    }
+  }, {
+    "id": 2352778,
+    "name": "Abuja",
+    "state": "",
+    "country": "NG",
+    "coord": {
+      "lon": 7.48976,
+      "lat": 9.05735
+    }
+  },   {
+    "id": 3369157,
+    "name": "Cape Town",
+    "state": "",
+    "country": "ZA",
+    "coord": {
+      "lon": 18.42322,
+      "lat": -33.925838
+    }
+  }
+]

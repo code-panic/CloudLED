@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/BluetoothLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bluetooth_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:text="Pairing Device"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:fontFamily="@font/noto_sans_medium"
+        android:includeFontPadding="false"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pairingViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/DotsIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        app:dotsColor="#ffffff"
+        app:dotsCornerRadius="4dp"
+        app:dotsSize="8dp"
+        app:dotsSpacing="4dp"
+        app:dotsWidthFactor="2.4"
+        app:selectedDotColor="#ffffff"
+        app:progressMode="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:text="Available Device"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:fontFamily="@font/noto_sans_regular"
+        android:includeFontPadding="false"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/AvailableViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/AvailableDotsIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        app:dotsColor="#ffffff"
+        app:dotsCornerRadius="4dp"
+        app:dotsSize="8dp"
+        app:dotsSpacing="4dp"
+        app:dotsWidthFactor="2.4"
+        app:selectedDotColor="#ffffff"
+        app:progressMode="true" />
+</LinearLayout>

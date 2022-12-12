@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    android:id="@+id/SlidingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoDragView="@id/DrawerLayout"
+    sothree:umanoShadowHeight="0dp"
+    sothree:umanoPanelHeight="116dp"
+    sothree:umanoOverlay="true"
+    sothree:umanoFadeColor="@android:color/transparent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:uiRotateGestures="false"
+        map:uiZoomGestures="false"/>
+
+    <RelativeLayout
+        android:id="@+id/DrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/DrawerTip"
+            android:layout_width="72dp"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/map_bg_drawer_tip"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/DrawerTip"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/map_bg_drawer">
+
+            <TextView
+                android:id="@+id/NameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                android:text="LONDON"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:fontFamily="@font/noto_sans_bold"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:id="@+id/LatLngTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="Lat 37.56 Lon 26.27"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:fontFamily="@font/noto_sans_medium"
+                android:includeFontPadding="false"/>
+
+            <Button
+                android:id="@+id/setButton"
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="center"
+                android:text="Set"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/noto_sans_medium"
+                android:background="@drawable/map_bg_set_button"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:holocolorpicker="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ColorPickerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/colorpicker_bg">
+
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="72dp">
+
+        <com.larswerkman.holocolorpicker.ColorPicker
+            android:id="@+id/ColorPicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            holocolorpicker:color_wheel_thickness="4dp"
+            holocolorpicker:color_center_radius="0dp"
+            holocolorpicker:color_pointer_radius="12dp"
+            holocolorpicker:color_pointer_halo_radius="12dp" />
+
+        <ImageView
+            android:id="@+id/IconImageView"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/colorpicker_icon_cloud"/>
+
+        <TextView
+            android:id="@+id/RGBTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/IconImageView"
+            android:layout_marginBottom="16dp"
+            android:text="#19584A"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/noto_sans_bold"
+            android:includeFontPadding="false"/>
+
+
+        <com.larswerkman.holocolorpicker.SVBar
+            android:id="@+id/SVBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/IconImageView"
+            android:layout_marginTop="24dp"
+            holocolorpicker:bar_thickness="12dp"
+            holocolorpicker:bar_length = "120dp"
+            holocolorpicker:bar_pointer_radius="12dp"
+            holocolorpicker:bar_pointer_halo_radius="12dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="108dp"
+        android:layout_height="54dp"
+        android:text="Blink"
+        android:textColor="#000000"
+        android:background="@drawable/colorpicker_bg_button"/>
+</LinearLayout>
